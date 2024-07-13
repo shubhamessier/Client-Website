@@ -1,0 +1,18 @@
+.bg-primary {
+    background-color: rgba(255, 255, 255, 0.9); /* Glassy white background */
+  }
+  
+  .form-field {
+    border-radius: 8px; /* Rounded corners for form fields */
+    padding: 10px;
+    margin-bottom: 15px; /* Adjust margins between form fields */
+  }
+  
+  .submit-button {
+    border-radius: 8px;
+  }
+  
+  .social-icon {
+    margin: 0 10px; /* Adjust margins between social icons */
+  }
+  

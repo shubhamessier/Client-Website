@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-// import Contact from "./Components/Contact/Contact";
+import Contact from "./Components/Contact/Contact";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Services from "./Components/Serivces/Services";
 import Carousel from "./Components/Home/Carousel";
@@ -16,6 +16,7 @@ function App() {
       <Services />
 
       <Testimonial />
+      <Contact />
     </>
   );
 }
