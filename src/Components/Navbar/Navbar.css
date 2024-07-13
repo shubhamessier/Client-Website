@@ -1,52 +1,75 @@
 /* Add this to your CSS file */
 .navbar {
-    padding: 15px 0;
-    transition: all 0.3s ease;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9; /* Softer light background */
+  border-bottom: 1px solid #dcdcdc; /* Lighter, subtle border */
+}
+
+.navbar-brand {
+  font-family: "Arial", sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal; /* Reduce prominence */
+  color: #5a5a5a; /* Softer neutral color */
+}
+
+.navbar-brand:hover {
+  color: #4a4a4a; /* Slightly darker on hover */
+}
+
+.nav-item {
+  position: relative;
+  margin: 0 10px; /* Maintain spacing for readability */
+  font-weight: 500;
+  color: #5a5a5a; /* Softer neutral color */
+}
+
+.nav-item a {
+  color: inherit; /* Inherit color from .nav-item */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-item a:hover {
+  color: #4a90e2; /* Softer blue color on hover */
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px; /* Thinner underline */
+  bottom: -2px; /* Adjusted position */
+  left: 50%;
+  background-color: #4a90e2; /* Softer blue */
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  border-radius: 4px; /* Rounded corners for a softer look */
+}
+
+.dropdown-item {
+  color: #5a5a5a; /* Consistent softer text color */
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Subtle background on hover */
+  color: #4a90e2; /* Softer blue */
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    padding-top: 15px;
   }
-  
-  .navbar-brand {
-    font-family: 'Arial', sans-serif;
-    letter-spacing: 1px;
-  }
-  
+
   .nav-item {
-    position: relative;
-    margin: 0 5px;
-    font-weight: 500;
+    margin: 5px 0;
   }
-  
-  .nav-item::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 50%;
-    background-color: #007bff;
-    transition: all 0.3s ease;
-  }
-  
-  .nav-item:hover::after {
-    width: 100%;
-    left: 0;
-  }
-  
-  .dropdown-menu {
-    border: none;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  }
-  
-  .dropdown-item:hover {
-    background-color: #f8f9fa;
-    color: #007bff;
-  }
-  
-  @media (max-width: 991px) {
-    .navbar-nav {
-      padding-top: 15px;
-    }
-    
-    .nav-item {
-      margin: 5px 0;
-    }
-  }
+}
