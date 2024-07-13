@@ -1,0 +1,52 @@
+/* Add this to your CSS file */
+.navbar {
+    padding: 15px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin: 0 5px;
+    font-weight: 500;
+  }
+  
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav {
+      padding-top: 15px;
+    }
+    
+    .nav-item {
+      margin: 5px 0;
+    }
+  }
