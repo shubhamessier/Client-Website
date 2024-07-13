@@ -13,9 +13,11 @@
         variant="light"
       >
         <Container>
-          <Navbar.Brand href="#home" className="fw-bold fs-4">
-            Dr. Vipin Jain
-          </Navbar.Brand>
+
+          <div className="logo">
+            <img src="https://drvipinjain.com/sites/2024/1/drvipinjain/logo/drvipinjain.png" alt="" />
+          </div>
+         
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

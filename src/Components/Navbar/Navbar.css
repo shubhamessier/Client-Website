@@ -68,6 +68,20 @@
   color: #4a90e2; /* Softer blue */
 }
 
+.logo{
+  margin-left: 60px;
+  width: 25%;
+  position: absolute;
+  top: -2;
+  left: 0;
+
+}
+
+.logo img{
+  padding: 0px 60px;
+  width: 100%;
+}
+
 @media (max-width: 991px) {
   .navbar-nav {
     padding-top: 15px;
