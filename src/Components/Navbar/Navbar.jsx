@@ -14,8 +14,7 @@ function TopNavbar() {
     >
       <Container>
         <Navbar.Brand href="#home" className="fw-bold fs-4">
-          <span className="text-primary">My</span>
-          <span className="text-secondary">Website</span>
+          Dr. Vipin Jain
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
