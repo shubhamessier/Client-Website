@@ -17,19 +17,19 @@ const ImageCarousel = () => {
       >
         <div>
           <img
-            src="https://images.unsplash.com/photo-1512102438733-bfa4ed29aef7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxoZWFsdGhjYXJlfGVufDB8fDB8fHww"
+          src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Image 1"
           />
         </div>
         <div>
           <img
-            src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fGhlYWx0aGNhcmV8ZW58MHx8MHx8fDA%3D"
+          src="https://images.unsplash.com/photo-1589279003513-467d320f47eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Image 2"
           />
         </div>
         <div>
           <img
-            src="https://images.unsplash.com/photo-1599493758267-c6c884c7071f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU1fHxoZWFsdGhjYXJlfGVufDB8fDB8fHww"
+          src="https://images.unsplash.com/photo-1609207825181-52d3214556dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Image 3"
           />
         </div>
