@@ -17,19 +17,31 @@ const ImageCarousel = () => {
       >
         <div>
           <img
+<<<<<<< HEAD
             src="https://images.unsplash.com/photo-1589279003513-467d320f47eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+=======
+          src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+>>>>>>> ff06282ffdc0d7a06c4fcb32cd8c1fdf90d2ea6e
             alt="Image 1"
           />
         </div>
         <div>
           <img
+<<<<<<< HEAD
             src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+=======
+          src="https://images.unsplash.com/photo-1589279003513-467d320f47eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+>>>>>>> ff06282ffdc0d7a06c4fcb32cd8c1fdf90d2ea6e
             alt="Image 2"
           />
         </div>
         <div>
           <img
+<<<<<<< HEAD
             src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=1452&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+=======
+          src="https://images.unsplash.com/photo-1609207825181-52d3214556dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+>>>>>>> ff06282ffdc0d7a06c4fcb32cd8c1fdf90d2ea6e
             alt="Image 3"
           />
         </div>
