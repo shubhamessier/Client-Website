@@ -1,4 +1,3 @@
-
 import {
   Box,
   Container,
@@ -8,6 +7,8 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { useInView } from "react-intersection-observer";
+
+import "./Hero.css"
 
 const HeroSection = () => {
   const { ref, inView } = useInView({
@@ -27,6 +28,8 @@ const HeroSection = () => {
         transform: inView ? "translateY(0)" : "translateY(20px)",
         transition: "opacity 0.8s ease, transform 0.8s ease",
       }}
+      px={100} // Example padding X
+      my={4} // Example margin Y
     >
       <Container maxW="container.md" textAlign="center">
         <VStack spacing={6}>

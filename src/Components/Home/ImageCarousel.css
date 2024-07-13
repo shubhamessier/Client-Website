@@ -1,0 +1,12 @@
+.carousel-container {
+  padding: 20px; /* Example padding */
+  margin: 60px 0; /* Example margin */
+}
+
+.carousel .slide img {
+  max-width: 120%;
+  height: auto;
+  object-fit: cover; /* Ensures images fill the space without distortion */
+  width: 100%; /* Ensures images are of the same width */
+  height: 550px; /* Adjust height as needed */
+}
